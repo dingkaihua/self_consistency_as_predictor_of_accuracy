@@ -1,0 +1,18 @@
+# Only de-identified (*_deid) derived data belongs in this repository.
+# Never commit raw or identifiable material:
+submissions_raw/
+student_submission/
+**/submissions_raw/
+private/
+**/private/
+*.zip
+# Guard against accidentally adding the non-de-identified canonical files:
+case_results.parquet
+case_results.csv
+*_raw.*
+
+# OS / tooling cruft
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
