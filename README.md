@@ -78,9 +78,9 @@ from the submitted run-level outputs.
 The accompanying paper is a preprint (arXiv identifier to be added on posting):
 
 ```bibtex
-@misc{ding2026selfconsistency,
+@misc{ding2026agree,
   author = {Ding, Kaihua},
-  title  = {Self-Consistency as a Predictor of Accuracy},
+  title  = {When {LLMs} Agree, Are They Right? Auditing Self-Consistency and Cross-Model Agreement as Confidence Signals},
   year   = {2026},
   note   = {arXiv preprint (forthcoming); see https://github.com/dingkaihua/self_consistency_as_predictor_of_accuracy}
 }
